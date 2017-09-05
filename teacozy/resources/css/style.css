@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: "Helvetica";
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+}
+/* Styling for header */
+header {
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  z-index: 1;
+  position: fixed;
+  background-color: inherit;
+}
+
+header img {
+    height: 50px;
+    padding: 10px 0 0 10px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+nav span a {
+  color: seashell;
+}
+
+/* Styling for main area */
+div.main {
+  padding: 70px 0 0 0;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+/* Styling for Our Mission area */
+#mission {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  display: flex;
+  justify-content: center;
+}
+
+.inside {
+  align-items: center;
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+
+.inside h2, h4 {
+  margin: 15px 0;
+}
+
+/* Styling for Tea of the month area */
+#month {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.selection {
+  padding: 6px;
+}
+
+.menu img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+/* Styling for Locations area */
+#location {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  padding: 75px 0 0 0;
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1200px;
+  margin: auto;
+}
+
+.store {
+  background-color: black;
+  flex-basis: 300px;
+  margin: 0 20px;
+}
+
+/* Styling for The Tea Cozy contact area */
+
+/* Styling for the footer area */
+footer {
+  text-align: left;
+  margin: 0 0 0 20px;
+}
